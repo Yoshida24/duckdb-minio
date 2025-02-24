@@ -1,9 +1,10 @@
-from packages.cowsay_demo.greeting import greet_to
+from packages.data_accessor import netflix_titles
+from packages.data_accessor import multile_csv
 
 
 def main():
-    # use argument to greet
-    greet_to(your_name="Alan")
+    netflix_titles.peek()
+    multile_csv.peek()
 
 
 if __name__ == "__main__":

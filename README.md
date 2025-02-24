@@ -4,15 +4,9 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/preset-python-uv)
 
-# preset-python-uv-vscode
+# duckdb-minio
 
-Preset for develop Python app by `uv`.
-
-## Included
-- Auto format on save by ruff
-- Task runner by make
-- Jupyter Notebook support
-- Env support
+DuckDB + MinIO の組み合わせを試すためのリポジトリ
 
 ## Usage
 
@@ -57,34 +51,8 @@ set -a && source ./.env && set +a
 make run
 ```
 
-```bash
-  ____________
-| Hello, Alan! |
-  ============
-            \
-             \
-               ^__^
-               (oo)\_______
-               (__)\       )\/\
-                   ||----w |
-                   ||     ||
-```
-
-> **Note**
->
-> This project *does not* depends on `dotenv-python`. Instead, using below script.
-> `set -a && source ./.env && set +a`
-
-## Use Jupyter
-
-In VSCode, `src/notebook.ipyenv` can be used with `.venv` automatically.
-
-Serve Juyter server:
-
-```bash
-uv run --with jupyter jupyter lab
-# Then automatically open http://localhost:8888/lab
-```
+## Sample Data
+[netflix_titles.csv](https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows?resource=download)
 
 ## Cheat Sheet
 Add dependencies:
