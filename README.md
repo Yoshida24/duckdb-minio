@@ -148,6 +148,14 @@ uv run python src/main.py
 └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+## MinIOに保存したファイルをパブリックに公開する方法
+GUIから操作する場合、バケット単位でPublicに設定する場合はバケットの設定からPublicのトグルをONにした上で、ブラウザから `http://<IP:ポート（docker-composeの設定では9000）>/<パス>/<ファイル名>` にアクセスすればよい。URLの対応は以下:
+
+| 画面 | URL |
+| --- | --- |
+| 管理画面 | http://localhost:9001/browser/duckdb-local/spam.parquet |
+| 対応する公開URL | http://localhost:9000/duckdb-local/spam.parquet |
+
 ## Sample Data
 - [netflix_titles.csv](https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows?resource=download)
 
