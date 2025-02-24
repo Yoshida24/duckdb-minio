@@ -1,12 +1,13 @@
 ![badge](https://img.shields.io/badge/Python-white?logo=python) 
-![badge](https://img.shields.io/badge/preset-red) 
-[![badge](https://img.shields.io/badge/Package_manager-uv-8A2BE2)](https://docs.astral.sh/uv/) ![badge](https://img.shields.io/badge/Linter-Ruff-yellow)
+![badge](https://img.shields.io/badge/DuckDB-green) 
+![badge](https://img.shields.io/badge/MinIO-orange) 
+
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/preset-python-uv)
 
 # duckdb-minio
 
-DuckDB + MinIO の組み合わせを試すためのリポジトリ
+DuckDB + MinIO を触ってみるテスト
 
 ## duckdb をローカルにインストールしてMinIO経由で使ってみる
 S3互換APIでParquetのデータを読めることを確認する。
