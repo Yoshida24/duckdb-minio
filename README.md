@@ -16,7 +16,7 @@ S3互換APIでParquetのデータを読めることを確認する。
 ```bash
 brew install duckdb
 # duckdb --version   
-# v1.2.0 5f5512b827
+# v1.2.p0 5f5512b827
 ```
 
 MinIOをdocker composeで立ち上げる。
